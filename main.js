@@ -11,7 +11,7 @@ try{
  calculatorScreen.value=eval(calculatorScreen.value)
 }
 catch{
-    calculatorScreen.value="error!!!!"
+    calculatorScreen.value="Invalid Expression!!!!"
 }
 }
 const removeLast=()=>{
